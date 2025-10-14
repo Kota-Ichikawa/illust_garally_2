@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>狼狐のらくがき集</title>
+    <style>
+      :root {
+        --bg: #f8f7f6;
+        --card: #ffffff;
+        --accent: #6b8cff;
+        --text: #222;
+        font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo,
+          sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header {
+        width: 100%;
+        background: linear-gradient(90deg, #fff, #eef2ff);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+        padding: 28px 16px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: clamp(20px, 4vw, 36px);
+        letter-spacing: 0.05em;
+      }
+      main {
+        width: 100%;
+        max-width: 980px;
+        padding: 28px 16px;
+        box-sizing: border-box;
+      }
+      .intro {
+        margin: 12px 0 28px;
+        color: #444;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 10px;
+        padding: 18px;
+        box-shadow: 0 4px 14px rgba(15, 20, 40, 0.06);
+        text-align: center;
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+        text-decoration: none;
+        color: inherit;
+      }
+      .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 30px rgba(15, 20, 40, 0.1);
+      }
+      .card h2 {
+        margin: 8px 0 6px;
+        font-size: 18px;
+      }
+      .card p {
+        margin: 0;
+        color: #666;
+        font-size: 14px;
+      }
+      footer {
+        margin: 40px 0;
+        color: #888;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>狼狐のらくがき集</h1>
+    </header>
+
+    <main>
+      <p class="intro">
+        このサイトでは私の描いたイラストを当時の裏話を添えつつ掲載しています。<br />各カテゴリをクリックすると中を見ることができます。<br />PC環境での閲覧を推奨しますが、スマホでも問題なく見れるとはおもいます。
+      </p>
+
+      <section class="grid" aria-label="カテゴリ一覧">
+        <a class="card" href="girls.html">
+          <h2>美少女系イラスト</h2>
+          <p>
+            美少女イラストをまとめています。<br />クオリティに期待してはいけない。
+          </p>
+        </a>
+
+        <a class="card" href="miuchi.html">
+          <h2>身内ネタ系イラスト</h2>
+          <p>主に高校時代に描いた<br />身内ネタのイラストです。</p>
+        </a>
+
+        <a class="card" href="neta.html">
+          <h2>ネタ系イラスト</h2>
+          <p>それ以外のネタ系イラストを<br />掲載しています。</p>
+        </a>
+      </section>
+    </main>
+
+    <footer>© 狼狐 — イラスト置き場</footer>
+  </body>
+</html>
