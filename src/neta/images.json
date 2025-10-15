@@ -1,61 +1,216 @@
 [
-  { "file": "neta1.JPG", "date": "2018.11", "comment": "あ" },
-  { "file": "neta8.JPG", "date": "2019.05", "comment": "あ" },
-  { "file": "neta7.JPG", "date": "2019.05", "comment": "あ" },
-  { "file": "neta6.JPG", "date": "2019.05", "comment": "あ" },
-  { "file": "neta14.JPG", "date": "2019.06", "comment": "あ" },
-  { "file": "neta13.JPG", "date": "2019.06", "comment": "あ" },
+  {
+    "file": "neta1.JPG",
+    "date": "2018.11",
+    "comment": "落書き。第五人格のリッパー。ここに展示してある絵で恐らく一番古い。コメントを書いている2025年10月現在の約7年前。"
+  },
+  {
+    "file": "neta8.JPG",
+    "date": "2019.05",
+    "comment": "か、唐澤貴洋くん、ど、どうしたんだ、いきなり古文の課題に出現して...。"
+  },
+  {
+    "file": "neta7.JPG",
+    "date": "2019.05",
+    "comment": "課題が嫌すぎてこうなった。偏差値70弱の高校生にあるまじき姿。てか当時からロリコンを自称してたのかよ...。"
+  },
+  {
+    "file": "neta6.JPG",
+    "date": "2019.05",
+    "comment": "なにこれ。当時はよく棒人間を描いていた。あと当時から下ネタが大好きだった。ちんちん。"
+  },
+  { "file": "neta14.JPG", "date": "2019.06", "comment": "アッー♂" },
+  {
+    "file": "neta13.JPG",
+    "date": "2019.06",
+    "comment": "うーん、これは...巻貝ですかね？うん、これは巻貝だ、間違いない。"
+  },
 
-  { "file": "neta10.png", "date": "2019.02", "comment": "あ" },
-  { "file": "neta11.png", "date": "2019.02", "comment": "あ" },
-  { "file": "neta12.png", "date": "2019.02", "comment": "あ" },
-  { "file": "neta9.png", "date": "2019.05", "comment": "あ" },
-  { "file": "neta2.jpg", "date": "2019.09", "comment": "あ" },
-  { "file": "neta3.jpg", "date": "2019.09", "comment": "あ" },
-  { "file": "neta4.jpg", "date": "2019.09", "comment": "あ" },
-  { "file": "neta5.jpg", "date": "2019.09", "comment": "あ" },
+  {
+    "file": "neta10.png",
+    "date": "2019.02",
+    "comment": "コアラのマーチ。"
+  },
+  {
+    "file": "neta11.png",
+    "date": "2019.02",
+    "comment": "東京鼠種（トーキョーチュール）。"
+  },
+  { "file": "neta12.png", "date": "2019.02", "comment": "スヌーピー。" },
+  { "file": "neta9.png", "date": "2019.05", "comment": "ウホッ♂ いい男。" },
+  {
+    "file": "neta5.jpg",
+    "date": "2019.09",
+    "comment": "阿部さんでGod Knows...の再現をしたかった。"
+  },
+  { "file": "neta4.jpg", "date": "2019.09", "comment": "同上。" },
+  { "file": "neta3.jpg", "date": "2019.09", "comment": "同上。" },
+  { "file": "neta2.jpg", "date": "2019.09", "comment": "同上。" },
 
-  { "file": "neta19.PNG", "date": "2022.01", "comment": "あ" },
-  { "file": "neta18.PNG", "date": "2022.01", "comment": "あ" },
-  { "file": "neta17.PNG", "date": "2022.01", "comment": "あ" },
-  { "file": "neta16.PNG", "date": "2022.01", "comment": "あ" },
+  {
+    "file": "neta18.PNG",
+    "date": "2022.01",
+    "comment": "マリオ。前大学の課題で作らされたwebサイトに載せるために描いたもの。"
+  },
+  {
+    "file": "neta17.PNG",
+    "date": "2022.01",
+    "comment": "ルイージ。同上。私がこんなおとなしい絵を描けることに驚愕である。"
+  },
+  { "file": "neta16.PNG", "date": "2022.01", "comment": "クッパ。同上。" },
 
-  { "file": "neta31.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta30.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta29.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta28.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta27.jpg", "date": "2022.05", "comment": "あ" },
-  { "file": "neta26.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta25.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta24.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta23.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta22.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta21.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta20.JPG", "date": "2022.05", "comment": "あ" },
-  { "file": "neta15.PNG", "date": "2022.07", "comment": "あ" },
+  {
+    "file": "neta31.JPG",
+    "date": "2022.05",
+    "comment": "弟と干支を落書きした時のもの。子。"
+  },
+  {
+    "file": "neta30.JPG",
+    "date": "2022.05",
+    "comment": "同上、丑。描いたのは私ではなく弟。"
+  },
+  { "file": "neta29.JPG", "date": "2022.05", "comment": "同上、寅。" },
+  {
+    "file": "neta28.JPG",
+    "date": "2022.05",
+    "comment": "同上、卯。描いたのは私ではなく弟。"
+  },
+  {
+    "file": "neta27.jpg",
+    "date": "2022.05",
+    "comment": "同上、辰。誰が描いたのか覚えてない。たぶん弟。"
+  },
+  {
+    "file": "neta26.JPG",
+    "date": "2022.05",
+    "comment": "同上、巳。誰が描いたのか覚えてない。たぶん俺。"
+  },
+  {
+    "file": "neta25.JPG",
+    "date": "2022.05",
+    "comment": "同上、午。当時ウマ娘は名前しか知らなかったので想像で描きました☆"
+  },
+  {
+    "file": "neta24.JPG",
+    "date": "2022.05",
+    "comment": "同上、未。描いたのは私ではなく弟。牛タンといい、こいつは動物を食物としか捉えてないような気がする。"
+  },
+  {
+    "file": "neta23.JPG",
+    "date": "2022.05",
+    "comment": "同上、申。ユニ◯ーサルスタジオに怒られろ。"
+  },
+  {
+    "file": "neta22.JPG",
+    "date": "2022.05",
+    "comment": "同上、酉。描いたのは私ではなく弟。H◯L研究所に怒られろ。"
+  },
+  {
+    "file": "neta21.JPG",
+    "date": "2022.05",
+    "comment": "同上、戌。（∪＾ω＾）わんわんお！ブレまくり。"
+  },
+  {
+    "file": "neta20.JPG",
+    "date": "2022.05",
+    "comment": "同上、亥。描いたのは私ではなく弟。"
+  },
+  {
+    "file": "neta15.PNG",
+    "date": "2022.07",
+    "comment": "狼狐（私）の自画像。一時期アイコンにしていたが、そのTwitterアカウントは理不尽に凍結した。FXで有り金溶かしてそうな顔をしている。"
+  },
 
-  { "file": "neta33.jpg", "date": "2023.01", "comment": "あ" },
-  { "file": "neta32.PNG", "date": "2023.12", "comment": "あ" },
+  {
+    "file": "neta33.jpg",
+    "date": "2023.01",
+    "comment": "描いた絵じゃないけど貼る。こんなもん作ってるから落ちるんだぞ()。色彩的に、ポケモンSV発売の時期か。"
+  },
+  {
+    "file": "neta32.PNG",
+    "date": "2023.12",
+    "comment": "達磨をモチーフに、高校時代の世界史教師を表現したやつ。身内ネタかと言われれば微妙。"
+  },
+  {
+    "file": "neta48.JPG",
+    "date": "2024.04",
+    "comment": "サークル二期生募集のための会議。俺と永田さんが暴れまくった結果こうなった。この頃はまだ性癖会は存在していなかった。"
+  },
+  {
+    "file": "neta38.PNG",
+    "date": "2024.04",
+    "comment": "二期生募集の勧誘でブースに置いていたジョージ。"
+  },
+  {
+    "file": "neta37.PNG",
+    "date": "2024.04",
+    "comment": "二期生募集の勧誘でブースに置いていた雨穴。"
+  },
+  {
+    "file": "neta36.PNG",
+    "date": "2024.04",
+    "comment": "二期生募集の勧誘でブースに置いていた終わった人の方の雨穴。三期でようやくゲームを作ることになってよかった。"
+  },
+  {
+    "file": "neta35.PNG",
+    "date": "2024.04",
+    "comment": "一応試作でプログラミングをする女の子を（萌えに寄せないようにして）描いてみた。結局没になった。"
+  },
+  {
+    "file": "neta34.PNG",
+    "date": "2024.04",
+    "comment": "色違い版。これも没になった。みなさんはどちらが好きですか？"
+  },
+  {
+    "file": "neta47.JPG",
+    "date": "2024.05",
+    "comment": "図書室の開放スペースに付箋にメッセージ書いて貼っていいところがあったからボンドルドを描いて貼っておいた。愛です、愛ですよ。"
+  },
+  {
+    "file": "neta39.JPG",
+    "date": "2024.06",
+    "comment": "たまっぷ！アプリに使用している法政大学多摩キャンパスのイラスト。実はあれを書いたのは私なんです。サークル初のアプリに、プログラマーとしてではなくイラストレーターとして関わってるってどうなんだい？"
+  },
+  {
+    "file": "neta44.JPG",
+    "date": "2024.07",
+    "comment": "Paizaの片山社長。Paizaランクを評価するメスガキちゃん（美少女イラストに掲載）にいいねをつけた結果、犠牲者となった。"
+  },
+  {
+    "file": "neta43.jpg",
+    "date": "2024.07",
+    "comment": "ムノープラチナ。テスト前に書いてるのかよ汗。ステータスが社不すぎる...これ、モチーフは俺自身だった可能性が微レ存......？"
+  },
+  { "file": "neta42.JPG", "date": "2024.10", "comment": "CODEMATES麻雀部。" },
+  {
+    "file": "neta49.PNG",
+    "date": "2024.12",
+    "comment": "昔書いた阿部さんをデジタルにしてみた。"
+  },
+  {
+    "file": "neta41.jpg",
+    "date": "2024.12",
+    "comment": "KICK BACKの米津。当時コールバック関数を勉強していた私は、長時間コードを書いていたのと深夜テンションとであろうことか表の方にこのイラストをぶん投げてしまったという黒歴史があります。"
+  },
 
-  { "file": "neta40.PNG", "date": "2024.02", "comment": "あ" },
-  { "file": "neta48.JPG", "date": "2024.04", "comment": "あ" },
-  { "file": "neta34.PNG", "date": "2024.04", "comment": "あ" },
-  { "file": "neta35.PNG", "date": "2024.04", "comment": "あ" },
-  { "file": "neta36.PNG", "date": "2024.04", "comment": "あ" },
-  { "file": "neta37.PNG", "date": "2024.04", "comment": "あ" },
-  { "file": "neta38.PNG", "date": "2024.04", "comment": "あ" },
-  { "file": "neta47.JPG", "date": "2024.05", "comment": "あ" },
-  { "file": "neta46.jpg", "date": "2024.05", "comment": "あ" },
-  { "file": "neta39.JPG", "date": "2024.06", "comment": "あ" },
-  { "file": "neta45.JPG", "date": "2024.06", "comment": "あ" },
-  { "file": "neta44.JPG", "date": "2024.07", "comment": "あ" },
-  { "file": "neta43.jpg", "date": "2024.07", "comment": "あ" },
-  { "file": "neta42.JPG", "date": "2024.10", "comment": "あ" },
-  { "file": "neta49.PNG", "date": "2024.12", "comment": "あ" },
-  { "file": "neta41.jpg", "date": "2024.12", "comment": "あ" },
-
-  { "file": "neta50.JPG", "date": "2025.02", "comment": "あ" },
-  { "file": "neta51.PNG", "date": "2025.06", "comment": "あ" },
-  { "file": "neta52.PNG", "date": "2025.07", "comment": "あ" },
-  { "file": "neta53.png", "date": "2025.08 ", "comment": "あ" }
+  {
+    "file": "neta50.JPG",
+    "date": "2025.02",
+    "comment": "絵じゃないけど。ネタ動画で使用した小道具。"
+  },
+  {
+    "file": "neta51.PNG",
+    "date": "2025.06",
+    "comment": "あのちゃんの似顔絵を描こうとしてよくわからなくなったやつ。"
+  },
+  {
+    "file": "neta52.PNG",
+    "date": "2025.07",
+    "comment": "ナガップジョルノ。あなたを詐欺罪と器物損害材で訴えます！覚悟の準備をしておいてください！いいですね！"
+  },
+  {
+    "file": "neta53.png",
+    "date": "2025.08 ",
+    "comment": "不敬罪。皇族に喧嘩を売るんじゃない。"
+  }
 ]

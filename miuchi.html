@@ -8,7 +8,7 @@
       :root {
         --bg: #fff7f6;
         --card: #fff;
-        --accent: #ff7a7a;
+        --accent: #ff7a7a; /* red accent */
         --text: #222;
         --muted: #666;
         font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo,
@@ -101,6 +101,13 @@
         margin: 0;
         margin-top: 6px;
       }
+      .empty {
+        color: var(--muted);
+        text-align: center;
+        padding: 28px 12px;
+        background: linear-gradient(180deg, #fff, #fff8f8);
+        border-radius: 8px;
+      }
       footer {
         margin: 36px 0;
         color: var(--muted);
@@ -117,35 +124,69 @@
     <main>
       <a class="back" href="index.html">← トップに戻る</a>
 
-      <section class="entries" aria-label="身内ネタ一覧">
-        <article class="entry">
-          <div class="date">2025-10-01</div>
-          <figure class="thumb">
-            <img src="images/miuchi/mi1.jpg" alt="身内ネタ1" loading="lazy" />
-          </figure>
-          <p class="comment">
-            身内用のネタ漫画ワンカット。実物はもっと小ネタが詰まっています。
-          </p>
-        </article>
-
-        <article class="entry">
-          <div class="date">2025-07-22</div>
-          <figure class="thumb">
-            <img src="images/miuchi/mi2.jpg" alt="身内ネタ2" loading="lazy" />
-          </figure>
-          <p class="comment">イベントのときに描いたおふざけイラスト。</p>
-        </article>
-
-        <article class="entry">
-          <div class="date">2025-05-10</div>
-          <figure class="thumb">
-            <img src="images/miuchi/mi3.jpg" alt="身内ネタ3" loading="lazy" />
-          </figure>
-          <p class="comment">メンバー向けのちょっとしたイラストメモ。</p>
-        </article>
+      <section id="entries" class="entries" aria-label="身内ネタ一覧">
+        <div id="loading" class="empty">読み込み中…</div>
       </section>
     </main>
 
     <footer>© 狼狐 — 身内ネタ系イラスト</footer>
+
+    <script>
+      (function () {
+        const container = document.getElementById("entries");
+        const loading = document.getElementById("loading");
+        const jsonPath = "src/miuchi/images.json";
+
+        function mkArticle(item) {
+          const article = document.createElement("article");
+          article.className = "entry";
+
+          const date = document.createElement("div");
+          date.className = "date";
+          date.textContent = item.date || "";
+
+          const figure = document.createElement("figure");
+          figure.className = "thumb";
+          const img = document.createElement("img");
+          img.loading = "lazy";
+          img.alt = item.alt || item.file || "";
+          img.src = "src/miuchi/" + (item.file || "");
+          figure.appendChild(img);
+
+          const p = document.createElement("p");
+          p.className = "comment";
+          p.textContent = item.comment || "";
+
+          article.appendChild(date);
+          article.appendChild(figure);
+          article.appendChild(p);
+          return article;
+        }
+
+        fetch(jsonPath)
+          .then((res) => {
+            if (!res.ok) throw new Error("Failed to fetch");
+            return res.json();
+          })
+          .then((list) => {
+            loading.remove();
+            if (!Array.isArray(list) || list.length === 0) {
+              const empty = document.createElement("div");
+              empty.className = "empty";
+              empty.textContent =
+                "画像が見つかりません。src/miuchi/images.json を確認してください。";
+              container.appendChild(empty);
+              return;
+            }
+            list.forEach((item) => {
+              container.appendChild(mkArticle(item));
+            });
+          })
+          .catch((err) => {
+            loading.textContent =
+              "読み込みに失敗しました（" + err.message + "）";
+          });
+      })();
+    </script>
   </body>
 </html>
